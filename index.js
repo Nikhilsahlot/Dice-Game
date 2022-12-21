@@ -16,12 +16,10 @@
     document.querySelector("h1").innerHTML = "🚩Draw 🚩";
   }
  
+  playSound("diceroll2");
   function playSound(name) {
     var audio = new Audio(name + ".mp3");
     audio.play();
 
 }
-$(".start").click(function(){
-   playSound("diceroll2");
-});
 
